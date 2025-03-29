@@ -36,9 +36,11 @@ async function changePost(path = '') {
       On this Series
     </div>
     <ul class="va-toc relative z-1">
-      <a v-for="(item, index) of posts" :key="index" class="va-toc-item" @click="changePost(item.path)">
-        <a class="outline-link" :class="[isCurrent(item.title) && 'active']">{{ index + 1 }}.{{ item.title }}</a>
-      </a>
+      <li v-for="(item, index) of posts" :key="index" class="va-toc-item">
+        <a class="outline-link" :class="[isCurrent(item.title) && 'active']" @click="changePost(item.path)">
+          {{ index + 1 }}.{{ item.title }}
+        </a>
+      </li>
     </ul>
   </div>
 </template>
