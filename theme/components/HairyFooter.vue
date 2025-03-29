@@ -3,7 +3,7 @@ import { capitalize, computed } from 'vue'
 import { useConfig, useRuntimeConfig, useSiteConfig, useThemeConfig } from 'valaxy'
 import { useI18n } from 'vue-i18n'
 import pkg from 'valaxy/package.json'
-import type { HairyTheme } from 'valaxy-theme-hairy'
+import type { HairyTheme } from 'valaxy-theme-hairy-staro'
 
 const { t } = useI18n()
 
@@ -45,7 +45,7 @@ const addonWaline = computed(() => runtimeConfig.value.addons['valaxy-addon-wali
         </a>
 
         <span>{{ sideConfig.author.name }}</span>
-        <template v-if="addonWaline.options?.pageview">
+        <template v-if="addonWaline?.options?.pageview">
           <span class="mx-2">|</span>
           <span class="flex items-center">
             <div class="i-ri-eye-fill mr-1" />

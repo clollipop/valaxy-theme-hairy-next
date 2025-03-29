@@ -19,8 +19,8 @@
     "eslint": "^8.56.0",
     "taze": "^0.15.0",
     "typescript": "^5.5.3",
-    "valaxy": "^0.19.2",
-    "valaxy-theme-hairy": "workspace:*",
+    "valaxy": "^0.22.17",
+    "valaxy-theme-hairy-staro": "workspace:*",
     "vue-tsc": "^1.8.27"
   }
 }

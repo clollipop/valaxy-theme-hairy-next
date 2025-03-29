@@ -1,5 +1,5 @@
 import { defineConfig } from 'valaxy'
-import type { ThemeConfig } from 'valaxy-theme-hairy'
+import type { ThemeConfig } from 'valaxy-theme-hairy-staro'
 import { addonWaline } from 'valaxy-addon-waline'
 import { addonMeting } from 'valaxy-addon-meting'
 
@@ -8,7 +8,7 @@ import { addonMeting } from 'valaxy-addon-meting'
  * do not use export const config to avoid defu conflict
  */
 export default defineConfig<ThemeConfig>({
-  theme: 'hairy',
+  theme: 'hairy-staro',
 
   themeConfig: {
     theme: 'dark',

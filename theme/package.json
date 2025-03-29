@@ -1,16 +1,17 @@
 {
-  "name": "valaxy-theme-hairy",
-  "version": "1.1.8",
+  "name": "valaxy-theme-hairy-staro",
+  "version": "1.1.9",
+  "description": "基于大佬的主题修改大佬的 github 仓库（https://github.com/hairyf/valaxy-theme-hairy）",
   "packageManager": "pnpm@8.15.8",
   "author": {
-    "email": "wwu710632@gmail.com",
-    "name": "Hairyf",
-    "url": "https://www.hairy.blog/"
+    "email": "jstaro@163.com",
+    "name": "Staro",
+    "url": "https://www.staro.cc"
   },
-  "homepage": "http://hairy.blog/posts/theme",
+  "homepage": "https://www.staro.cc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hairyf/valaxy-theme-hairy-next"
+    "url": "https://github.com/clollipop/valaxy-theme-hairy-next"
   },
   "keywords": [
     "valaxy",
@@ -26,7 +27,7 @@
     "@iconify-json/fluent": "^1.1.59",
     "@iconify-json/material-symbols": "^1.1.84",
     "@iconify-json/simple-icons": "^1.1.109",
-    "@intlify/shared": "9.13.1",
+    "@intlify/shared": "10.0.5",
     "@overlastic/vue": "^0.4.7",
     "element-plus": "^2.7.7",
     "furigana-markdown-it": "^1.0.3",
@@ -34,9 +35,10 @@
     "swiper": "^11.1.5"
   },
   "devDependencies": {
-    "valaxy": "^0.19.2",
+    "valaxy": "^0.22.17",
     "valaxy-addon-algolia": "^0.0.3",
     "valaxy-addon-meting": "^0.1.3",
-    "valaxy-addon-waline": "^0.1.5"
+    "valaxy-addon-waline": "^0.2.0",
+    "valaxy-theme-hairy-staro": "^1.1.9"
   }
 }
