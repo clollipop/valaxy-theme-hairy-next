@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import type { NavItem } from 'valaxy-theme-hairy'
+import type { NavItem } from 'valaxy-theme-hairy-staro'
 import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { storeToRefs } from 'pinia'

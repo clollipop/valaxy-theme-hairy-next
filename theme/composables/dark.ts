@@ -1,7 +1,7 @@
 import { useAppStore, useThemeConfig } from 'valaxy'
 import { onMounted } from 'vue'
 import { useLocalStorage } from '@vueuse/core'
-import type { ThemeConfig } from 'valaxy-theme-hairy'
+import type { ThemeConfig } from 'valaxy-theme-hairy-staro'
 
 export function setupDefaultDark() {
   const theme = useThemeConfig<ThemeConfig>()
