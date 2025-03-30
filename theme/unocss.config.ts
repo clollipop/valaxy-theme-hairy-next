@@ -25,6 +25,7 @@ export default defineConfig({
   },
 
   rules: [
+    ['font-YSHaoShenTi', { 'font-family': 'var(--hy-font-family-YSHaoShenTi)' }],
     ['font-seto', { 'font-family': 'var(--hy-font-family-seto)' }],
     ['font-modesty', { 'font-family': 'var(--hy-font-family-modesty)' }],
     ['font-christmas', { 'font-family': 'var(--hy-font-family-christmas)' }],
